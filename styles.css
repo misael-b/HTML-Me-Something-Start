@@ -1,1 +1,72 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    padding: 0px 300px 20px;
+    background-color: rgb(226, 247, 247);
+}
+main{
+    background-color:rgb(246, 242, 242);
+}
+
+li{
+    display: inline;
+}
+ul{
+    text-align: center;
+    width: auto;
+}
+
+#mainHeading{
+    text-align:center;
+    color: red;
+}
+
+.funParagraph{
+    color: green;
+    text-align: center;
+}
+
+#right{
+    text-align: right;
+}
+
+#left{
+    text-align: left;
+}
+
+.leftpic {
+    max-width: 40%;
+    height: auto;
+    float: left;
+    
+}
+
+.rightpic {
+    max-width: 25%;
+    height: auto;
+    float: right;
+}
+
+article{
+    padding: 30px 30px 30px
+}
+
+hr.dotted {
+    border-top: 3px solid #000000;
+    padding: 0px 0px 00px 0px;
+}
+
+p{
+    padding: 60px 5px 5px;
+    
+}
+
+.absleft{
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 35%;
+    width: 300px;
+}
+
